@@ -1,0 +1,16 @@
+.footer-container {
+    background-color: gray;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    .fab {
+        margin: auto 20px;
+        font-size: 40px;
+        color: white;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.4)
+        }
+    }
+}
