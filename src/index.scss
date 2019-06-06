@@ -1,10 +1,25 @@
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Titillium Web', sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(233, 233, 233)
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
