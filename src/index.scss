@@ -7,7 +7,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(233, 233, 233)
+  background-color: rgb(233, 233, 233);
+  padding: 140px 0 0px 0;
 }
 
 ul {
@@ -23,3 +24,9 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 991px) {
+  body {
+    padding: 90px 0 0px 0;
+  }
+
+}
